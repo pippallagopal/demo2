@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent {
-
+navbar={
+  src:"../../../assets/navbar/logo.svg.png",
+  alt:"logo",
+  item1:"Iphone",
+  item2:"Android",
+  item3:"Help",
+  item4:"Company"
+}
 }
